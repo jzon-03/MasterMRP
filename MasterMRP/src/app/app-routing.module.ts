@@ -6,6 +6,7 @@ import { MailComponent } from './home/mail/mail.component';
 import { LoginComponent } from './login/login.component';
 
 const routes: Routes = [
+  {path:'',redirectTo:'home',pathMatch:'full'},
   {
     path:'home',
     component:HomeComponent,
@@ -14,8 +15,7 @@ const routes: Routes = [
       {path:'mail',component:MailComponent}
     ]
   },
-  {path:'login',component:LoginComponent},
-  
+  {path:'login',component:LoginComponent}  
 ];
 
 @NgModule({
