@@ -8,13 +8,15 @@ import { MaterialModule } from './mymodules/material/material.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HomeComponent } from './home/home.component';
 import { AccountComponent } from './home/account/account.component';
+import { HomenavComponent } from './home/homenav/homenav.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
     HomeComponent,
-    AccountComponent
+    AccountComponent,
+    HomenavComponent
   ],
   imports: [
     BrowserModule,
